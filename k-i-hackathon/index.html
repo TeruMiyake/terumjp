@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" charset="utf-8">
+<html>
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KSEW0EN9X9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-KSEW0EN9X9');
+  </script>
+  <!-- css -->
+  <meta name="viewport" content="width=device-width">
+  <!-- Copyright (c) 2015 windyakin (MIT License: https://opensource.org/licenses/mit-license.php) -->
+  <link rel="stylesheet" type="text/css" href="https://terum.jp/assets/honoka/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://terum.jp/assets/css/base.css">
+
+  <!-- Twitter summary card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@K_I_Hackathon" />
+  <meta name="twitter:title" content="Keyboard Input Hackathon" />
+  <meta name="twitter:description" content="キーボードがテーマのゆるゆるハッカソン、4/22~23 秋葉原で開催！ゲーム/ツール/キー配列… 創作物は何でもOK！" />
+  <meta name="twitter:image" content="https://terum.jp/k-i-hackathon/kih_logo.png" />
+  <meta name="twitter:image:alt" content="The logo image for Keyboard Input Hackathon" />
+
+  <link rel="icon" href="./favicon.ico" />
+
+  <!-- landing page css -->
+  <style>
+    /* https://fonts.google.com/specimen/Ubuntu */
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+    body {
+      background-image: url("./KIH_header_LP.png");
+      background-size: auto 250px;
+      background-repeat: no-repeat;
+      background-position: center 78.4px;
+    }
+
+    .home-content {
+      text-align: center;
+      padding-top: 250px;
+      padding-bottom: 100px;
+      color: #754652;
+    }
+
+    @media screen and (max-width: 500px) {
+      body {
+        background-size: auto 180px;
+      }
+
+      .home-content {
+        padding-top: 180px;
+        padding-bottom: 100px;
+      }
+    }
+
+    .sponsors {
+      margin-top: 100px;
+      color: #555555;
+    }
+
+    .sponsors a {
+      color: inherit;
+      text-decoration: underline;
+    }
+
+    .sponsors a:hover {
+      color: #754652;
+      text-decoration: underline;
+    }
+
+    .sponsor_logo {
+      margin: 15px 0px;
+    }
+
+    .description {
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      font-size: 1.1rem;
+      margin: 15px 0 50px;
+      line-height: 1.2em;
+    }
+
+    .page-title {
+      font-size: 4.3rem;
+      font-family: 'Ubuntu', serif;
+      font-weight: 500;
+    }
+
+    .kih-2023-title {
+      /* 文字に下線を引く */
+      font-size: 2rem;
+      font-family: 'Ubuntu', serif;
+      margin-bottom: 20px;
+    }
+
+    .kih-2023-date {
+      font-size: 1.3rem;
+      font-family: 'M PLUS Rounded 1c', sans-serif;
+      margin-bottom: 20px;
+    }
+
+    .collage-container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 100%;
+    }
+
+    .collage {
+      flex: 1 0 100%;
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 2px;
+    }
+
+    .collage a {
+      display: inline-block;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 1199px) {
+      .collage {
+        flex: 1 0 100%;
+        max-width: 100%;
+      }
+    }
+
+    .button {
+      font-family: 'Ubuntu';
+      font-weight: bold;
+      border: solid 3px #754652;
+      font-size: 1.375rem;
+      color: #754652;
+      border-radius: 8px;
+      margin-top: 1%;
+      padding: 14px 32px;
+      display: inline-block;
+    }
+
+    .button:hover {
+      background: #F592B0;
+      color: #754652;
+    }
+  </style>
+
+  <title>Keyboard Input Hackathon</title>
+</head>
+
+<body>
+  <!-- Header Menu -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="https://terum.jp/">
+          <img src="https://terum.jp/assets/img/cheeta01.jpg" width="30" height="30"
+            class="d-inline-block align-top mr-1" alt="" style="border-radius:20px;">
+          Teru M.
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://terum.jp">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://tin.terum.jp/" target="_blank">TiN</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Typing
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://terum.jp/typing/index.html">Records</a>
+                <a class="dropdown-item" href="https://teru-typing.hatenablog.com/entry/2020/12/09/000000"
+                  target="_blank">Typing Doujin</a>
+                <a class="dropdown-item" href="https://teru-typing.hatenablog.com/" target="_blank">Typing Blog</a>
+                <a class="dropdown-item" href="https://uta202.blogspot.com/" target="_blank">Typing Blog (old)</a>
+                <a class="dropdown-item" href="https://twitter.com/TeruMiyake" target="_blank">Twitter</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Programming
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://egov.terum.jp" target="_blank">e-Gov Typing</a>
+                <a class="dropdown-item" href="https://atcoder.jp/users/TeruMiyake" target="_blank">AtCoder Account</a>
+                <a class="dropdown-item" href="https://twitter.com/TeruMiyake_" target="_blank">Twitter</a>
+                <a class="dropdown-item" href="https://terumiyake.hatenablog.com/" target="_blank">Kyopro Blog</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- home-content -->
+  <div class="container home-content">
+    <!-- <h2 class="page-title">
+      <span style="color: #F54A74">K</span><span style="color: #F592B0">eyboard </span>
+      <span style="color: #31F54D">I</span><span style="color: #7AF588">nput </span>
+      <span style="color: #3D65F5">H</span><span style="color: #87A2F5">ackathon</span>
+    </h2> -->
+    <div class="description">
+      <p>キーボードがテーマのゆるゆるハッカソン</p>
+      <p>ゲーム/ツール/キー配列… 創作物は何でもOK</p>
+      <p>このテーマで何かをつくりたい人、誰でも大歓迎！</p>
+    </div>
+    <h3 class="kih-2023-title"><a
+        href="https://k-i-hackathon.notion.site/Keyboard-Input-Hackathon-2023-1d0ac21fd70e4a78b46c39272ddb4acf">
+        <span style="color: #F54A74;text-decoration: underline;">K</span><span
+          style="color: #F592B0;text-decoration: underline;">eyboard </span>
+        <span style="color: #F54A74;text-decoration: underline;">I</span><span
+          style="color: #F592B0;text-decoration: underline;">nput </span>
+        <span style="color: #F54A74;text-decoration: underline;">H</span><span
+          style="color: #F592B0;text-decoration: underline;">ackathon </span>
+        <span style="color: #F54A74;text-decoration: underline;">2023</span></a>
+    </h3>
+    <p class="kih-2023-date">
+      2023.4.22~23 秋葉原にて開催しました！
+    </p>
+
+    <!-- KIH2023 まとめ写真 -->
+    <div class="collage-container">
+      <div class="collage">
+        <a href="./KIH2023_photo_collage.png" target="_blank"><img src="./KIH2023_photo_collage.png" /></a>
+      </div>
+      <div class="collage">
+        <a href="./KIH2023_presentation_collage.png" target="_blank"><img
+            src="./KIH2023_presentation_collage.png" /></a>
+      </div>
+    </div>
+
+    <!-- sponsors -->
+    <div class="sponsors">
+      <h3>Supported by...</h3>
+      <div class="sponsor_logo">
+        <img src="./REALFORCE_logo_01.png" style="width:50%;" />
+      </div>
+      <p>
+        「<a href="https://www.realforce.co.jp/" target="_blank">REALFORCE</a>」の
+        <a href="https://www.topre.co.jp/" target="_blank">東プレ株式会社</a>様より、<br>
+        ハッカソン賞品のご協賛を頂いています。</a>
+      </p>
+    </div>
+  </div>
+
+
+  <!-- Copyright (c) 2015 windyakin (MIT License: https://opensource.org/licenses/mit-license.php) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://terum.jp/assets/honoka/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $('.bs-component [data-toggle="popover"]').popover();
+    $('.bs-component [data-toggle="tooltip"]').tooltip();
+  </script>
+</body>
+
+</html>

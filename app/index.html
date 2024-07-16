@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" charset="utf-8">
+<html>
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KSEW0EN9X9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KSEW0EN9X9');
+  </script>
+  <!-- css -->
+  <meta name="viewport" content="width=device-width">
+  <!-- Copyright (c) 2015 windyakin (MIT License: https://opensource.org/licenses/mit-license.php) -->
+  <link rel="stylesheet" type="text/css" href="https://terum.jp/assets/honoka/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://terum.jp/assets/css/base.css">
+
+  <title>Home | Teru M.</title>
+</head>
+
+<body>
+  <!-- Header Menu -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="https://terum.jp/">
+          <img src="https://terum.jp/assets/img/cheeta01.jpg" width="30" height="30"
+            class="d-inline-block align-top mr-1" alt=""
+            style="border-radius:20px;"
+            >
+          Teru M.
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://terum.jp">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://tin.terum.jp/" target="_blank">TiN</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Typing
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://terum.jp/typing/index.html">Records</a>
+                <a class="dropdown-item" href="https://teru-typing.hatenablog.com/entry/2020/12/09/000000"
+                  target="_blank">Typing Doujin</a>
+                <a class="dropdown-item" href="https://teru-typing.hatenablog.com/" target="_blank">Typing Blog</a>
+                <a class="dropdown-item" href="https://uta202.blogspot.com/" target="_blank">Typing Blog (old)</a>
+                <a class="dropdown-item" href="https://twitter.com/TeruMiyake" target="_blank">Twitter</a>
+                <a class="dropdown-item" href="http://unsi.nonip.net/user/24" target="_blank">運指表</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Programming
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="https://egov.terum.jp" target="_blank">e-Gov Typing</a>
+                <a class="dropdown-item" href="https://atcoder.jp/users/TeruMiyake" target="_blank">AtCoder Account</a>
+                <a class="dropdown-item" href="https://twitter.com/TeruMiyake_" target="_blank">Twitter</a>
+                <a class="dropdown-item" href="https://terumiyake.hatenablog.com/" target="_blank">Kyopro Blog</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Body -->
+  <div class="container">
+    <h1 class="display-4">Applications</h1>
+    <p class="lead">個人製作のアプリケーションを公開しています。</p>
+    <hr>
+    <br>
+
+    <h2>注意点</h2>
+    <p>当サイト上のアプリケーションを実行したことで発生したいかなる損害にも、製作者は責任を負いません。</p>
+    <br><br>
+
+    <h2>アプリ利用前の準備</h2>
+    <p>このページ上のアプリケーションを実行するためには、以下のページから証明書のインストールをして頂くことが必要となります。</p>
+    <p>証明書をインストールすることで、私（テル）により署名/発行されたアプリケーションを信頼する（≒インストールを許可する）ことになります。</p>
+    <p><a href="https://terum.jp/app/tm_selfsigned.cer">自己署名証明書</a></p>
+    <h3>インストール方法</h3>
+    <p>1. 上記リンクをクリックして、証明書ファイルをダウンロード</p>
+    <p>2. ダウンロードしたファイルを開く</p>
+    <p>3. "証明書のインストール" をクリック</p>
+    <img src="https://terum.jp/assets/app/cer_1.png" class="sizeable" style="width:300px;margin:10px;" >
+    <p>4. "ローカルコンピューター" を選択して OK</p>
+    <img src="https://terum.jp/assets/app/cer_2.png" class="sizeable" style="width:300px;margin:10px;">
+    <p>4. "すべて次のストアに配置する" → "信頼されたルート証明機関" を選択して OK</p>
+    <img src="https://terum.jp/assets/app/cer_3.png" class="sizeable" style="width:500px;margin:10px;">
+    <br><br>
+
+    <h2><a href="https://terum.jp/app/llkcg/">LowLevelKeyCodeGetter</a></h2>
+    <p>Windowsメッセージをフックして、各ウィンドウに送信される前の低レベルなキーボード入力を取得します。</p>
+      <img src="https://terum.jp/assets/app/llkcg.png" class="sizeable" style="width:600px;">
+    <br>
+    <br><br>
+
+
+    <br /><br />
+  </div>
+
+  <!-- Copyright (c) 2015 windyakin (MIT License: https://opensource.org/licenses/mit-license.php) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://terum.jp/assets/honoka/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $('.bs-component [data-toggle="popover"]').popover();
+    $('.bs-component [data-toggle="tooltip"]').tooltip();
+  </script>
+</body>
+
+</html>
